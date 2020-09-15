@@ -1,7 +1,7 @@
 import numpy as np
 
-import mappings
-import potentials
+from . import mappings
+from . import potentials
 
 class Model(object):
     """Model class """

@@ -4,9 +4,9 @@ import os
 import shutil
 import mdtraj as md
 
-import potentials 
+from . import potentials 
 
-from model import Model            
+from .model import Model            
 
 
 class AwsemModel(Model):

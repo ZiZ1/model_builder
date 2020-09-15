@@ -7,8 +7,8 @@ import mdtraj as md
 #from hamiltonian import Hamiltonian
 from model_builder.models.mappings import AwsemBackboneMapping
 
-import util
-import awsem
+from . import util
+from . import awsem
 
 class AwsemHamiltonian(object):
 

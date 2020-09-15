@@ -19,8 +19,8 @@ Example:
 
 """
 
-import models
-import inputs
+from . import models
+from . import inputs
 load_model = inputs.load_model
 #import info_string
-import make_model
+from . import make_model

@@ -4,7 +4,7 @@ import numpy as np
 
 import mdtraj as md
 
-import viz_bonds
+from . import viz_bonds
 
 SUPPORTED_VERSIONS = ["4.5.4","4.5.4_sbm","4.6.5","4.6.5_sbm"]
 

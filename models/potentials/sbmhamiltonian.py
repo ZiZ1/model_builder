@@ -2,9 +2,9 @@ import numpy as np
 
 import mdtraj as md
 
-import util
+from . import util
 
-from hamiltonian import Hamiltonian
+from .hamiltonian import Hamiltonian
 
 class StructureBasedHamiltonian(Hamiltonian):
 

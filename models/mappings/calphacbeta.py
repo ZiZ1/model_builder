@@ -4,8 +4,8 @@ import numpy as np
 import mdtraj as md
 from mdtraj.core.topology import Topology
 
-import util
-import atom_types
+from . import util
+from . import atom_types
 
 class CalphaCbetaMapping(object):
     """Calpha Cbeta center-of-mass representation mapping"""

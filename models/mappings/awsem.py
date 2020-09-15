@@ -3,8 +3,8 @@ import numpy as np
 import mdtraj as md
 from mdtraj.core.topology import Topology
 
-import util
-import atom_types
+from . import util
+from . import atom_types
         
 
 # weights for creating glycine hydrogens (H-Beta, HB).

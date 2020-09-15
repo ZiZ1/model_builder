@@ -2,10 +2,10 @@ import numpy as np
 
 import mdtraj as md
 
-import pairwise
-import bonded
+from . import pairwise
+from . import bonded
 
-import util
+from . import util
 
 class Hamiltonian(object):
     """Model Hamiltonian"""
